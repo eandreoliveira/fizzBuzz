@@ -14,6 +14,8 @@ class GenerateFizzBuzzService {
                 it % 5 == 0 -> "Buzz"
                 else -> it.toString()
             }
+
         }
-        .let { FizzBuzzResponse(it) }
+        .let { FizzBuzzResponse(it)
+        }
 }
